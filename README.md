@@ -17,7 +17,7 @@ To increase the reliability of the predictions, I engineered several key feature
 
 ## Technical Stack
 * **Language:** Python
-* **Libraries:** `pandas`, `numpy`, `scikit-learn` (Isolation Forest), `matplotlib`, `seaborn`.
+* **Libraries:** `pandas`, `numpy`, `PYOD` (Isolation Forest), `matplotlib`, `seaborn`.
 * **Tools:** Jupyter Notebook, Anaconda, GitHub Desktop.
 
 ## Model Implementation
