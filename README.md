@@ -7,6 +7,9 @@ Fraud detection is a critical challenge for online retailers. This project focus
 * **Detection:** Using unsupervised learning to flag anomalies without needing labeled "fraud" data for every case.
 * **Accuracy:** Implementing feature engineering to capture the nuances of fraudulent activity.
 * **Scalability:** Building a pipeline that can handle large datasets using efficient Python libraries.
+  
+## Why Unsupervised Learning (Isolation Forest)?
+fraud labels are often delayed by 30-90 days due to the chargeback process. Furthermore, supervised models struggle to detect "zero-day" fraud tactics that haven't been seen before. I deliberately chose to use an unsupervised approach (Isolation Forest) to build a model capable of detecting novel anomalies in real-time, relying on the labels strictly for final evaluation rather than training.
 
 ## Feature Engineering
 To increase the reliability of the predictions, I engineered several key features:
